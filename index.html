@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Routine Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Daily Routine Tracker</h1>
+        <ul id="routine-list">
+            <li>Wake up at 6 AM <button class="complete-btn">Complete</button></li>
+            <li>Exercise for 30 minutes <button class="complete-btn">Complete</button></li>
+            <li>Have a healthy breakfast <button class="complete-btn">Complete</button></li>
+            <li>Work on your goals <button class="complete-btn">Complete</button></li>
+            <li>Read for 30 minutes <button class="complete-btn">Complete</button></li>
+            <li>Play Cricket<button class="complete-btn">Complete</button></li>
+        </ul>
+        <div class="stats">
+            <p>Completed Tasks: <span id="completed-count">0</span></p>
+            <p>Uncompleted Tasks: <span id="uncompleted-count">5</span></p>
+            <p>Current Streak: <span id="streak-count">0</span> days</p>
+        </div>
+        <div id="message" class="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
